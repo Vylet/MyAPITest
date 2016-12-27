@@ -1,0 +1,15 @@
+2016-12-26 03:33:25,345 - {logger} - line[44] - INFO :Logger set up...
+2016-12-26 03:33:53,115 - {logger} - line[44] - INFO :Logger set up...
+2016-12-26 03:33:53,153 - {main} - line[53] - DEBUG :4
+2016-12-26 03:33:53,153 - {main} - line[55] - DEBUG :5
+2016-12-26 03:33:53,154 - {TestCase} - line[28] - DEBUG :{u'Check point': u'301 Moved Permanently', u'Protocol': u'http', u'Desciption': u'', u'Method': u'get', u'Host': u'www.sina.com', u'Params': u'', u'Path': u'/', u'Port': u'', u'ID': 1.0}
+2016-12-26 03:33:53,154 - {TestCase} - line[41] - DEBUG :http
+2016-12-26 03:33:53,381 - {TestCase} - line[55] - DEBUG :301
+2016-12-26 03:33:53,381 - {TestCase} - line[66] - INFO :Case 1: CODE 301, REASON Moved Permanently , Redirection
+2016-12-26 03:33:53,381 - {TestCase} - line[74] - DEBUG :301 Moved Permanently
+2016-12-26 03:33:53,382 - {TestCase} - line[28] - DEBUG :{u'Check point': u'successfully depolyed', u'Protocol': u'http', u'Desciption': u'', u'Method': u'get', u'Host': u'www.sina.com', u'Params': u'', u'Path': u'/', u'Port': u'', u'ID': 2.0}
+2016-12-26 03:33:53,384 - {TestCase} - line[41] - DEBUG :http
+2016-12-26 03:33:53,592 - {TestCase} - line[55] - DEBUG :301
+2016-12-26 03:33:53,592 - {TestCase} - line[66] - INFO :Case 2: CODE 301, REASON Moved Permanently , Redirection
+2016-12-26 03:33:53,592 - {TestCase} - line[74] - DEBUG :successfully depolyed
+2016-12-26 03:33:53,594 - {TestCase} - line[83] - ERROR :Case 2: Not match "successfully depolyed"

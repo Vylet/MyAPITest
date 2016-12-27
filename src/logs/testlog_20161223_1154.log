@@ -1,0 +1,19 @@
+2016-12-23 11:54:48,266 - {logger} - line[44] - INFO :Logger set up...
+2016-12-23 11:54:48,267 - {main} - line[24] - DEBUG :1
+2016-12-23 11:54:48,267 - {main} - line[26] - DEBUG :2
+2016-12-23 11:54:48,267 - {TestCase} - line[29] - DEBUG :D:\workspace\MyAPITest\src\TestCase\TestCase.xlsx
+2016-12-23 11:54:48,267 - {main} - line[28] - DEBUG :3
+2016-12-23 11:54:48,270 - {main} - line[34] - DEBUG :4
+2016-12-23 11:54:48,272 - {main} - line[36] - DEBUG :5
+2016-12-23 11:54:48,272 - {TestCase} - line[34] - DEBUG :Enter test
+2016-12-23 11:54:48,302 - {TestCase} - line[37] - DEBUG :{u'Check point': u'301 Moved Permanently', u'Protocol': u'http', u'Desciption': u'', u'Method': u'get', u'Host': u'www.sina.com', u'Params': u'', u'Path': u'/', u'Port': u'', u'ID': 1.0}
+2016-12-23 11:54:48,302 - {TestCase} - line[67] - DEBUG :http
+2016-12-23 11:54:48,536 - {TestCase} - line[81] - DEBUG :301
+2016-12-23 11:54:48,536 - {TestCase} - line[92] - INFO :Case 1: CODE 301, REASON Moved Permanently , Redirection
+2016-12-23 11:54:48,536 - {TestCase} - line[100] - DEBUG :301 Moved Permanently
+2016-12-23 11:54:48,538 - {TestCase} - line[37] - DEBUG :{u'Check point': u'successfully depolyed', u'Protocol': u'http', u'Desciption': u'', u'Method': u'get', u'Host': u'www.sina.com', u'Params': u'', u'Path': u'/', u'Port': u'', u'ID': 2.0}
+2016-12-23 11:54:48,538 - {TestCase} - line[67] - DEBUG :http
+2016-12-23 11:54:48,747 - {TestCase} - line[81] - DEBUG :301
+2016-12-23 11:54:48,747 - {TestCase} - line[92] - INFO :Case 2: CODE 301, REASON Moved Permanently , Redirection
+2016-12-23 11:54:48,747 - {TestCase} - line[100] - DEBUG :successfully depolyed
+2016-12-23 11:54:48,749 - {TestCase} - line[109] - ERROR :Case 2: Not match "successfully depolyed"
